@@ -1,0 +1,67 @@
+@use 'partials/fonts';
+
+// VARIABLES
+$light-cyan: hsl(193, 38%, 86%);
+$neon-green: hsl(150, 100%, 66%);
+$grayish-blue: hsl(217, 19%, 38%);
+$dark-grayish-blue: hsl(217, 19%, 24%);
+$dark-blue: hsl(218, 23%, 16%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    background-color: $dark-blue;
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    color: $light-cyan;
+}
+
+.advice__box {
+    position: relative;
+    background-color: $dark-grayish-blue;
+    border-radius: 15px;
+    padding: 3rem;
+    text-align: center;
+}
+
+.advice__number {
+    color: $neon-green;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 32px;
+}
+
+.advice__text {
+    margin: 0 auto 32px;
+    width: 450px;
+}
+
+.advice__separator {
+    display: block;
+    margin-bottom: 32px;
+}
+
+.advice__btn {
+    position: absolute;
+    cursor: pointer;
+    bottom: -33.5px;
+    left: 44.1%;
+    background-color: $neon-green;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    transition: .2s;
+
+    &:hover {
+        box-shadow: 0px 0px 30px 0px $neon-green;
+    }
+}
