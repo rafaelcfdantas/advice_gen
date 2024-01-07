@@ -46,7 +46,12 @@ $dark-blue: hsl(218, 23%, 16%);
 }
 
 .advice__separator {
-    display: block;
+    display: inline;
+    margin-bottom: 32px;
+}
+
+.advice__separator-mobile {
+    display: none;
     margin-bottom: 32px;
 }
 
@@ -54,12 +59,12 @@ $dark-blue: hsl(218, 23%, 16%);
     position: absolute;
     cursor: pointer;
     bottom: -33.5px;
-    left: 44.1%;
+    left: 44.2%;
     background-color: $neon-green;
     border: none;
     border-radius: 50%;
     padding: 20px;
-    transition: .2s;
+    transition: .2s box-shadow;
 
     &:hover {
         box-shadow: 0px 0px 30px 0px $neon-green;
