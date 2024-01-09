@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rafael de Carvalho França Dantas">
+    <meta name="description" content="Receba conselhos para melhorar seu dia!">
+    <link rel="stylesheet" href="assets/styles/css/styles.min.css">
+    <link rel="stylesheet" href="assets/styles/css/styles-mobile.min.css">
+    <title>Gerador de Conselhos</title>
+</head>
+<body class="body">
+    <main class="advice__box">
+        <h1 class="advice__number" id="advice_number"></h1>
+        <p class="advice__text" id="advice__text"></p>
+        <svg width="444" height="16" class="advice__separator" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
+        <svg width="295" height="16" class="advice__separator-mobile" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z"/><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
+        <button class="advice__btn" type="button" onclick="getAdvice();">
+            <svg width="24" height="24" class="advice__dice" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg>
+        </button>
+    </main>
+    <footer class="footer">
+        Desafio por <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db" target="_blank">Frontend Mentor</a>.
+        Desenvolvido por <a href="https://rafaelcfdantas.netlify.app/" target="_blank">Rafael Dantas</a>.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
