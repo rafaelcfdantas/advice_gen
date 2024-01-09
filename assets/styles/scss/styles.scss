@@ -38,6 +38,10 @@ $dark-blue: hsl(218, 23%, 16%);
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 32px;
+
+    &.hide {
+        display: none;
+    }
 }
 
 .advice__text {
