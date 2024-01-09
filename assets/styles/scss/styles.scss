@@ -62,8 +62,9 @@ $dark-blue: hsl(218, 23%, 16%);
 .advice__btn {
     position: absolute;
     cursor: pointer;
-    bottom: -33.5px;
-    left: 44.2%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
     background-color: $neon-green;
     border: none;
     border-radius: 50%;
@@ -72,5 +73,21 @@ $dark-blue: hsl(218, 23%, 16%);
 
     &:hover {
         box-shadow: 0px 0px 30px 0px $neon-green;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    color: $grayish-blue;
+    font-size: 16px;
+
+    a {
+        color: inherit;
+        transition: .2s color;
+
+        &:hover {
+            color: $light-cyan;
+        }
     }
 }
