@@ -1,0 +1,25 @@
+@media screen and (max-width: 570px) {
+    .body {
+        font-size: 20px;
+    }
+
+    .advice__box {
+        padding: 1.5rem;
+    }
+
+    .advice__number {
+        font-size: 10px;
+    }
+
+    .advice__text {
+        width: 300px;
+    }
+
+    .advice__separator {
+        display: none;
+    }
+
+    .advice__separator-mobile {
+        display: inline;
+    }
+}
