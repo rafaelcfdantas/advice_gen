@@ -16,7 +16,7 @@ async function getAdvice() {
             }
         });
 
-        document.getElementById('advice__text').innerText = '“' + translation.data.data.translations[0].translatedText + '”';
+        document.getElementById('advice__text').innerText = translation.data.data.translations[0].translatedText;
         document.getElementById('advice_number').classList.remove('hide');
         document.getElementById('advice_number').innerText = 'Conselho #' + advice.id;
     } catch (error) {
