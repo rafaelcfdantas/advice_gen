@@ -45,6 +45,7 @@ $dark-blue: hsl(218, 23%, 16%);
 }
 
 .advice__text {
+    display: block;
     margin: 0 auto 32px;
     width: 450px;
 }
@@ -65,6 +66,7 @@ $dark-blue: hsl(218, 23%, 16%);
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    width: 67px;
     background-color: $neon-green;
     border: none;
     border-radius: 50%;
@@ -81,6 +83,7 @@ $dark-blue: hsl(218, 23%, 16%);
     bottom: 20px;
     color: $grayish-blue;
     font-size: 16px;
+    text-wrap: balance;
 
     a {
         color: inherit;
